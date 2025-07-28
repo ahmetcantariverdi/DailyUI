@@ -9,13 +9,13 @@ body{
   height: 72px;
   display: flex;
   align-items: center;
-  justify-content: flex-start; /* sola yasla */
+  justify-content: flex-start; 
   font-family: "Poppins", sans-serif;
   font-weight: bold;
-  font-size: clamp(32px, 8vw, 72px); /* gerektiğinde küçülür */
+  font-size: clamp(32px, 8vw, 72px); 
   color: #191847;
-  white-space: nowrap;   /* satır atlama yok */
-  overflow: hidden;      /* taşanı gizle */
+  white-space: nowrap;   
+  overflow: hidden;      
 }
 .custom-btn-blue {
   background-color: #4788E9;
@@ -37,17 +37,17 @@ body{
 }
 
 .stock-text {
-  font-weight: 600;   /* kalın */
-  font-size: 0.85rem; /* küçük */
+  font-weight: 600;   
+  font-size: 0.85rem; 
 }
 .custom-btn-black {
   background-color: transparent;
   color: black;
   font-weight: bold;
-  border: 2px solid black; /* sadece siyah kenar */
+  border: 2px solid black; 
   padding: 12px;
   transition: background-color 0.2s ease, color 0.2s ease;
-  border-radius: 0.375rem; /* Bootstrap’in rounded standartı */
+  border-radius: 0.375rem; 
 }
 
 .custom-btn-black:hover,
