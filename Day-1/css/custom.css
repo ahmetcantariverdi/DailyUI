@@ -4,7 +4,56 @@ body{
     font-family: "Poppins", sans-serif !important;
 }
 
+.price {
+  width: 127px;
+  height: 72px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start; /* sola yasla */
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  font-size: clamp(32px, 8vw, 72px); /* gerektiğinde küçülür */
+  color: #191847;
+  white-space: nowrap;   /* satır atlama yok */
+  overflow: hidden;      /* taşanı gizle */
+}
+.custom-btn-blue {
+  background-color: #4788E9;
+  color: white;
+  font-weight: bold;
+  border: none;
+  padding: 12px;
+  border-bottom: 4px solid #0041c4; 
+  transition: transform 0.1s ease;
+}
 
-.primaryColor{
-    color: #191847;
+.custom-btn-blue:active {
+  transform: translateY(2px); 
+}
+.dot {
+  width: 0.8em;
+  height: 0.8em;
+  display: inline-block;
+}
+
+.stock-text {
+  font-weight: 600;   /* kalın */
+  font-size: 0.85rem; /* küçük */
+}
+.custom-btn-black {
+  background-color: transparent;
+  color: black;
+  font-weight: bold;
+  border: 2px solid black; /* sadece siyah kenar */
+  padding: 12px;
+  transition: background-color 0.2s ease, color 0.2s ease;
+  border-radius: 0.375rem; /* Bootstrap’in rounded standartı */
+}
+
+.custom-btn-black:hover,
+.custom-btn-black:focus,
+.custom-btn-black:active {
+  background-color: black;
+  color: white;
+  outline: none;
 }
