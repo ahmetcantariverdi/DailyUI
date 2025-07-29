@@ -29,10 +29,9 @@ body {
   text-align: left;
 }
 
-/* EN ÖNEMLİ KISIM: yan yana, 167x167 px kutular */
+
 .custom-container {
-  /* white-space: nowrap;  <-- bu satırı kaldır ya da yorum satırı yap */
-  overflow-x: visible; /* scroll kapandı, taşarsa kutular alt satıra geçer */
+  overflow-x: visible; 
   padding-bottom: 10px;
 }
 
