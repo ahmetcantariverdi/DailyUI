@@ -10,55 +10,26 @@ body {
 
 .text-primary {
   color: #1A1B38 !important;
-  }
-
-.position-row {
-  flex-wrap: nowrap !important;
-  overflow-x: auto;
-  gap: 20px;
 }
 
-.role-box {
-  flex: 0 0 22%; /* flexs*/
-  background-color: #f8f9fa;
-  border-radius: 10px;
-  padding: 15px 10px;
-  min-width: 130px;
-  height: 130px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  transition: transform 0.3s ease;
+
+
+#col-1 {
+  color: #B1BBED !important;
 }
 
-.role-box:hover {
-  transform: translateY(-5px);
+#col-2 {
+  color: #EDB1BF !important;
 }
 
-.profil-icon {
-  font-size: 2.5rem;
-  margin-bottom: 10px;
+#col-3 {
+  color: #C1EDB1 !important;
 }
 
-.role-label {
-  font-size: 0.9rem;
-  font-weight: 500;
-  color: #1A1B38;
+#col-4 {
+  color: #EDD8B1 !important;
 }
 
-#icon-1{
-  color: #B1BBED;
-}
-#icon-2{
-  color: #EDB1BF;
-}
-#icon-3{
-  color: #C1EDB1;
-}
-#icon-4{
-  color: #EDD8B1;
-}
 /* Responsive */
 @media (max-width: 768px) {
   .position-row {
