@@ -1,60 +1,73 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 
 body {
   font-family: 'Poppins', sans-serif;
+  background-color: #fff;
   margin: 0;
   padding: 0;
   min-height: 100vh;
-  background-color: #fff;
 }
 
-.primaryColor {
-  color: #1A1B38;
+.text-primary {
+  color: #1A1B38 !important;
+  }
+
+.position-row {
+  flex-wrap: nowrap !important;
+  overflow-x: auto;
+  gap: 20px;
 }
 
-.custom-samp {
-  color: #1A1B38;
-  font-size: 0.85rem;
-  text-align: center;
-  display: block;
-}
-
-.card-body {
-  margin: 0 auto;
-  width: 45%;
-}
-
-.container {
-  font-family: sans-serif;
-  text-align: left;
-}
-
-
-.custom-container {
-  overflow-x: visible; 
-  padding-bottom: 10px;
-}
-
-.custom-item {
-  display: inline-block;
-  vertical-align: top;
-  width: 130px;
-  height: 130px;
-  margin-right: 10px;
-  padding: 10px;
-  box-sizing: border-box;
+.role-box {
+  flex: 0 0 22%; /* flexs*/
   background-color: #f8f9fa;
-  border-radius: 8px;
-  text-align: center;
+  border-radius: 10px;
+  padding: 15px 10px;
+  min-width: 130px;
+  height: 130px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.3s ease;
+}
+
+.role-box:hover {
+  transform: translateY(-5px);
 }
 
 .profil-icon {
-  font-size: 48px;
+  font-size: 2.5rem;
   margin-bottom: 10px;
 }
 
-.custom-samp {
-  font-size: 14px;
-  line-height: 1.5;
-  display: block;
+.role-label {
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: #1A1B38;
+}
+
+#icon-1{
+  color: #B1BBED;
+}
+#icon-2{
+  color: #EDB1BF;
+}
+#icon-3{
+  color: #C1EDB1;
+}
+#icon-4{
+  color: #EDD8B1;
+}
+/* Responsive */
+@media (max-width: 768px) {
+  .position-row {
+    flex-wrap: wrap !important;
+    justify-content: center;
+  }
+
+  .role-box {
+    flex: 0 0 45%;
+    margin-bottom: 10px;
+  }
 }
