@@ -1,0 +1,93 @@
+body{
+    background:  rgb(217, 217, 233);
+}
+h1,h5,p{
+    font-family: 'Libertinus Serif', serif;
+}
+
+
+.custom-nav-link {
+  color: #000;
+  background-color: transparent;
+  border: 1px solid transparent;
+  padding: 0.4rem 0.9rem;
+  border-radius: 0.375rem;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.custom-nav-link:hover {
+  background-color: #849FFF;
+  color: white !important;
+  border-color: #849FFF;
+  box-shadow: 0 0 5px rgba(132, 159, 255, 0.5);
+}
+
+.custom-nav-link.active {
+  background-color: #849FFF;
+  color: white !important;
+  border-color: #849FFF;
+  box-shadow: 0 0 5px rgba(132, 159, 255, 0.5);
+}
+.custom-nav-link {
+    white-space: nowrap; }
+
+.custom-nav-link.active {
+    font-weight: bold;
+    text-decoration: underline;
+}
+ 
+.custom-navbar {
+  width: 70%;
+  background-color: transparent;
+}
+
+.custom-nav-link {
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  text-align: center;
+  white-space: nowrap;
+
+  transition: all 0.2s ease-in-out;
+  text-decoration: none;
+}
+/* NEW USERS */
+.no-wrap-link {
+  white-space: nowrap;
+}
+.profile{
+    width: 60px;
+     height: 60px; 
+     object-fit: cover;
+}
+.box-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.box {
+  flex: 0 0 30%;
+  box-sizing: border-box;
+}
+.buton {
+  padding: 0.15rem 0.5rem;
+  font-size: 0.75rem;
+  line-height: 1;
+  height: auto;
+  border-radius: 999px;
+}
+.box {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+  border: 1px solid transparent; 
+}
+
+.box.active {
+  transform: scale(1.05);
+  box-shadow: 0 0 10px 3px #aeb3c7;
+  border-color: transparent;
+  z-index: 1;
+}
