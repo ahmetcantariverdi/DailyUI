@@ -1,0 +1,27 @@
+body{
+background:  rgb(147, 147, 167);
+
+}
+h4{
+     font-family: 'Libertinus Serif', serif;
+}
+
+.sm{
+    font-size: 0.6em;
+   vertical-align: bottom;
+}
+.small{
+    font-size: 0.8em;
+}
+#btn-1{
+    background: #EDBBFF;
+    color: black;
+}
+#btn-2{
+background: #AEF1F5;
+color: black;
+}
+#btn-3{
+background: #FFDDB6;
+color: black;
+}
