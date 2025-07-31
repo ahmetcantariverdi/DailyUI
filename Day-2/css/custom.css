@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+
+body, html {
+      height: 100vh;
+      margin: 0;
+    }
+
+.title {
+  color: #1A1B38 !important;
+}
+
+#icon-1 {
+  color: #B1BBED !important;
+}
+
+#icon-2 {
+  color: #EDB1BF !important;
+}
+
+#icon-3 {
+  color: #C1EDB1 !important;
+
+}
+
+#icon-4 {
+  color: #EDD8B1 !important;
+
+}
+
+.box{
+  width: 120px !important;
+  height: 120px !important;
+}
