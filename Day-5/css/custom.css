@@ -85,9 +85,9 @@ h1,h5,p{
   border: 1px solid transparent; 
 }
 
-.box.active {
-  transform: scale(1.05);
-  box-shadow: 0 0 10px 3px #aeb3c7;
-  border-color: transparent;
-  z-index: 1;
+#box-border{
+   background-color: #849FFF;
+  color: white !important;
+  border-color: #849FFF;
+  box-shadow: 0 0 5px rgba(132, 159, 255, 0.5);
 }
