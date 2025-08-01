@@ -85,9 +85,3 @@ h1,h5,p{
   border: 1px solid transparent; 
 }
 
-#box-border{
-   background-color: #849FFF;
-  color: white !important;
-  border-color: #849FFF;
-  box-shadow: 0 0 5px rgba(132, 159, 255, 0.5);
-}
