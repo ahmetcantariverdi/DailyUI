@@ -1,0 +1,84 @@
+body {
+    background: #F9BF2D;
+}
+
+h5,
+span {
+    font-family: 'Libertinus Serif', serif;
+    color: white;
+}
+
+.container {
+    padding: 10%;
+    width: 100%;
+}
+
+.box {
+    width: 350px;
+    height: 180px;
+    left: 10%;
+    top: 20%;
+}
+
+.box-1 {
+    background: #222C85;
+    width: 350px;
+    height: 170px;
+
+
+}
+
+.min-bax {
+    background: #1D184F;
+    color: white;
+    width: 30px;
+    height: 30px;
+}
+
+.img {
+    width: 40px;
+    height: 40px;
+}
+
+.overlap-img {
+    margin-left: -8px;
+}
+
+.box-2 {
+    background: #222C85;
+    width: 240px;
+    height: 250px;
+    left: 400px;
+    top: -130px;
+}
+
+.box-3 {
+    background: #222C85;
+    width: 270px;
+    height: 130px;
+    top: 300px;
+    left: 180px;
+}
+
+.box-sm-1 {
+    background: #5398FF;
+    height: 10px;
+    width: 35%;
+}
+
+.box-sm-2 {
+    background: #E4BD31;
+    height: 10px;
+    width: 65%;
+}
+
+.box-min-1 {
+    background: #5398FF;
+    width: 10px;
+    height: 10px;
+}
+.box-min-2 {
+    background: #E4BD31;
+    width: 10px;
+    height: 10px;
+}
