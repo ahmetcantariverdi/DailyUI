@@ -1,7 +1,42 @@
+body{
+   background: #1c1d31;;
+    color: #1A2653;
+}
+h4{
+    font-family: 'Libertinus Serif', serif;
+}
+
 .container{
-    background: #f5e9f1;
+    background: #fae0f0;
     top: 50px;
     left: 120px;
     width: 80%;
-    height: 80%;
+    height: 800px;
+}
+.box-flex{
+    background: #ffebf8;
+    width: 343px;
+    height: 452px;
+    top: 280px;
+    left: 370px;
+}
+.btn-box{
+    background: #F1E2F5;
+    width: 570px;
+    height: 230px;
+    border: 8px solid #FFFFFF !important;
+    top: 190px;
+    left: 190px;
+}
+.box-1{
+     background: #F1E2F5;
+      border: 8px solid #FFFFFF !important;
+      width:  400px;
+      height: 100px;
+      left: 500px;
+      top: 450px;
+}
+.buton-1{
+    background: #1A2653;
+    color: white;
 }
