@@ -1,0 +1,33 @@
+body{
+    background: #000000;
+}
+h5{
+    font-family: 'libartinus serif',serif;
+    color: #1a172b;
+    font-size: 20px;
+}
+.container{
+   background: rgb(226, 224, 255);
+    width: 65%;
+    height: 1000px;
+}
+.box{
+background: white;
+width: 400px;
+height: 500px;
+top: 60px;
+left: 470px;
+}
+.form-check-input:checked {
+     background-image: none;
+ }
+ .box-f{
+    background:rgb(238, 237, 253);
+    width: 75%;
+ }  
+.box-f-2{
+    background:rgb(238, 237, 253); 
+}
+ .form-check-input:checked {
+  box-shadow: 0 0 0 4px rgba(25, 25, 26, 0.25);
+}
