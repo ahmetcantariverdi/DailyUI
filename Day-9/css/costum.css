@@ -1,33 +1,127 @@
-body{
-    background: #000000;
+body {
+  background: #000000;
 }
-h5{
-    font-family: 'libartinus serif',serif;
+
+h5 {
+  font-family: 'libartinus serif', serif;
+  color: #1a172b;
+  font-size: 20px;
+}
+
+.container {
+  background: rgb(239, 239, 253);
+  width: 65%;
+  height: 1200px;
+}
+
+.box {
+  background: rgb(247, 247, 248);
+  width: 400px;
+  height: 500px;
+  top: 60px;
+  left: 32%;
+}
+
+.box-f {
+  background: rgb(245, 244, 255);
+  width: 90%;
+  height: 100px;
+
+}
+.box-f-1{
+   background: rgb(244, 244, 255);
+  width: 90%;
+  height: 70px;  
+}
+.custom-check {
+  appearance: none;
+   border: 1px solid black;
+  border-radius: 50% !important; 
+}
+
+.custom-check:checked {
+  border: 5px solid black;
+  background-color: transparent;
+}
+.custom-check-2{
+  appearance: none;
+   border: 1px solid black;  
+}
+.custom-check-2:checked {
+  border: 5px solid black;
+  background-color: transparent;
+}
+.xs{
+    font-size: 12px;
+}
+.buton{
+    background: #1a172b;
+    color: white;
+    height: 30px;
+    width: 100%;
+}
+.buton-2{
+    background-color: transparent;
     color: #1a172b;
-    font-size: 20px;
+    transition: all -.3s ease;
+     height: 30px;
+    width: 100%;
 }
-.container{
-   background: rgb(226, 224, 255);
-    width: 65%;
-    height: 1000px;
+.buton-2:hover{
+    background-color: #1a172b;
+    color: white;
 }
-.box{
-background: white;
-width: 400px;
-height: 500px;
-top: 60px;
-left: 470px;
+.box-2{
+    background: #E6EBF4;
+    width: 300px;
+    height: 400px;
+    top: 700px;
+    left: 35%;
 }
-.form-check-input:checked {
-     background-image: none;
- }
- .box-f{
-    background:rgb(238, 237, 253);
-    width: 75%;
- }  
-.box-f-2{
-    background:rgb(238, 237, 253); 
+.box-3{
+    background: white;
+    width: 220px;
+    height:200px;
+    top: 750px;
+    left: 30%;
 }
- .form-check-input:checked {
-  box-shadow: 0 0 0 4px rgba(25, 25, 26, 0.25);
+.custom-input{
+ border: none;
+ border-radius: 0;
+ border-color: transparent;
+ box-shadow: none;
+ outline: none;
+ transition: border 0.2s ease;   
+}
+.custom-input:focus{
+    border: 2px solid #0d6efd;
+  box-shadow: none;
+  outline: none;
+}
+.buton-3{
+  background: #282767;
+  color: white;
+  width: 100%;
+}
+.box-4{
+   background: white;
+    width: 220px;
+    height:200px;
+    top: 850px;
+    left: 50%;
+}
+.mn-box{
+  background: rgb(239, 239, 253);
+}
+.not{
+    background:rgb(228, 228, 247) ;
+    color: #afabab;
+    width: 10%;
+    height: 100px;
+    border: 8px solid #757575 !important;
+}
+.title{
+    top: 25px;
+    left: px;
+  font-size: x-large;
 }
