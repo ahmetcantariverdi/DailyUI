@@ -1,0 +1,108 @@
+body{
+    background: #1a172b;
+    height: 1000px;
+}
+.container{
+    background: rgb(204, 204, 206);
+    width: 90%;
+    height: 800px;
+    margin-top: 150px;  
+}
+.box{
+    background: #c7c6c6;
+    width: 300px;
+    height: 280px;
+    top: 390px;
+    left: 195px;
+}
+.box-1{
+background: #EBEBEB;
+width: 320px;
+height: 280px;
+top: 400px;
+left: 190px;
+}
+.buton-1{
+    width: 44px;
+    height: 44px; 
+    border-radius: 8px;
+}
+.chart-circle {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background: conic-gradient( #434FC0 0% 10%, #A0CCE2 10% 100% );
+}
+.primary-play{
+    color: #424FC0;
+}
+.xs{
+    font-size: 12px;
+}
+.buton-2{
+    height: 30px;
+}
+.box-2{
+    background: #c7c6c6;
+    width: 300px;
+    height: 550px;
+     top: -40px;
+    left: 400px; 
+}
+.box-3{
+  background: #050505;
+  width: 350px;
+  bottom: 350px;
+}
+.box-4{
+  background: #EBEBEB;
+  width: 350px;
+  bottom: 180px;
+}
+.box-5{
+  background: #EBEBEB;
+  width: 350px;
+ bottom: 10px;
+
+}
+.min-box-1{
+    background: #E89A62;
+    width: 20px;
+    height: 4px;
+}
+.min-box-2{
+     background: #89A5EE;
+    width: 20px;
+    height: 4px;
+}
+.min-box-3{
+     background: #6CC58F;
+    width: 20px;
+    height: 4px;
+}
+.min-title{
+ color: white;
+}
+.lg{
+    font-size: large;
+}
+.sm{
+    font-size: small;
+}
+.buton-3{
+    left: 150px;
+    height: 35px;
+}
+.not{
+    background: #35304b;
+    color: #afabab;
+    width: 250px;
+    height: 100px;
+    border: 8px solid #757575 !important;
+    top: 0%;
+    left: 0%;
+}
+.title{
+    top: 25px;
+    left: 35px;
+}
