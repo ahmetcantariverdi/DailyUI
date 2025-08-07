@@ -1,0 +1,116 @@
+h3{
+    font-family:'libartinus serif',serif  ;
+}
+.container{
+    background: #cacaca;
+    width: 90%;
+    height: 900px;
+}
+.box-1{
+    background: #FFFFFF;
+    width: 500px;
+    height: 540px;
+    top: 150px;
+    left: 450px;
+}
+.box-2{
+    background: #F8F8F8;
+     width: 500px;
+    height: 550px;
+    top: 170px;
+    left: 480px;
+}
+.title{
+    width: 50%;
+}
+.star{
+background: #FFFFFF;
+   
+}
+.rating-box {
+  width: 100px;
+  height: 100px;
+}
+.s{
+ font-size: 12px
+}
+.star-yellow {
+  color: gold;
+}
+.star-big {
+  font-size: 2em;
+}
+.title-1{
+    color: #191B4A;
+}
+.list-1{
+    background: #FFD66C;
+    height:6px ;
+ width: 70%;
+}
+.list-2{
+    height:6px ;
+ width: 30%; 
+}
+.list-3{
+    background: #FFD66C;
+    height:6px ;
+ width: 30%;
+}
+.list-4{
+    height:6px ;
+ width: 70%; 
+}
+.list-5{
+    background: #FFD66C;
+    height:6px ;
+ width: 0%;
+}
+.list-6{
+    height:6px ;
+ width: 100%; 
+}
+.list-7{
+    background: #FFD66C;
+    height:6px ;
+ width: 0%;
+}
+.list-8{
+    height:6px ;
+ width: 100%; 
+}
+.list-9{
+    background: #FFD66C;
+    height:6px ;
+ width: 0%;
+}
+.list-10{
+    height:6px ;
+ width: 100%; 
+}
+.left{
+    margin-left: 3px;
+}
+.top{
+    margin-top: 7px;
+}
+.mangnifying{
+    bottom: 292px;
+}
+.buton-1{
+    background: #191B4A;
+    color: white;
+    width: 120px;
+}
+.not{
+    background: #e2ddf7;
+    width: 250px;
+    height: 100px;
+    border: 8px solid #757575 !important;
+    top: 0%;
+    left: 0%;
+}
+.title-1{
+    top: 25px;
+    left: 35px;
+}

@@ -1,0 +1,261 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Day-12</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/custom.css">
+    
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Libertinus+Serif:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap" rel="stylesheet">
+
+    <link rel='stylesheet'
+        href='https://cdn-uicons.flaticon.com/3.0.0/uicons-regular-rounded/css/uicons-regular-rounded.css'>
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/3.0.0/uicons-thin-rounded/css/uicons-thin-rounded.css'>
+    <link rel='stylesheet'
+        href='https://cdn-uicons.flaticon.com/3.0.0/uicons-regular-straight/css/uicons-regular-straight.css'>
+</head>
+
+<body class="bg-dark">
+    <!--message--> 
+    <div class="notification-container" id="notificationContainer"></div>
+    <div class="container-1 mx-auto">
+ <div class="not-1 btn position-absolute text-center z-1">
+        <a href="https://www.uidesigndaily.com/posts/sketch-payment-mobile-app-components-cards-day-1157" class="link custom-link"><h5>LİNK</h5></a>
+    </div>
+        <div class="box-1 position-absolute ">
+            <div class="box-2 position-absolute rounded-4 d-flex flex-column justify-content-between p-3">
+                <div class="d-flex justify-content-between align-items-center mb-2">
+                    <small class="text-white fw-semibold">Frequent payments</small>
+                    <span class="text-white fs-5">...</span>
+                </div>
+                <div class="d-flex justify-content-between align-items-center">
+                    <img src="img/woman-1.jpg" class="profile-img" alt="profil">
+                    <img src="img/woman-2.jpg" class="profile-img" alt="profil">
+                    <img src="img/man.jpg" class="profile-img" alt="profil">
+                    <img src="img/woman-3.jpg" class="profile-img" alt="profil">
+                </div>
+            </div>
+            <div class="box-3 bg-white  rounded-4 position-absolute d-flex justify-content-between align-items-center px-3 pt-2">
+                <!-- Home -->
+                <div class="btn d-flex flex-column align-items-center justify-content-center">
+                    <div class="icon-circle">
+                        <i class="fi fi-rr-apps xl"></i>
+                    </div>
+                    <small class="text-label">Home</small>
+                </div>
+
+                <!-- Card -->
+                <div class="btn d-flex flex-column align-items-center justify-content-center">
+                    <div class="icon-circle">
+                        <i class="fi fi-rr-credit-card xl"></i>
+                    </div>
+                    <small class="text-label">Card</small>
+                </div>
+
+                <!-- Active-camera-->
+                <div class="btn d-flex flex-column align-items-center justify-content-center">
+                    <div class="icon-circle active-icon">
+                        <i class="fi fi-rr-photo-capture xl"></i>
+                    </div>
+                    <small class="text-label text-white">New</small>
+                </div>
+
+                <!-- Tax -->
+                <div class="btn d-flex flex-column align-items-center justify-content-center">
+                    <div class="icon-circle">
+                        <i class="fi fi-tr-file-invoice xl"></i>
+                    </div>
+                    <small class="text-label">Tax</small>
+                </div>
+
+                <!-- Profile -->
+                <div class="btn d-flex flex-column align-items-center justify-content-center">
+                    <div class="icon-circle">
+                        <i class="fi fi-rs-user xl"></i>
+                    </div>
+                    <small class="text-label">Profile</small>
+                </div>
+            </div>
+            <!--paragraph/4-->
+         <div class="box-4 bg-white position-absolute rounded-4 d-flex flex-column justify-content-between align-items-center p-4">
+  <div id="content" class="text-center"> </div>
+  <div class="d-flex justify-content-between align-items-center w-100">
+    <button class="btn btn-light px-3 py-1" onclick="changeContent(-1)">&lt;</button>
+    <div class="text-muted" id="dots"></div>
+    <button class="btn btn-light px-3 py-1" onclick="changeContent(1)">&gt;</button>
+  </div>
+</div>
+<div class="box-5 bg-white position-absolute rounded-4 border p-4">
+  <div class="row g-3">
+    <!-- Kutu 1 -->
+    <div class="col-6 border-end border-bottom position-relative text-center">
+      <!-- Dikey üç nokta -->
+      <div class="position-absolute top-0 end-0 p-2">
+        <span class="fw-bold">⋮</span>
+      </div>
+      <!-- İçerik -->
+      <img src="img/woman-4.jpg" class="rounded-circle sm mb-2" alt="Profil">
+      <div class="xs fw-bold">Lee Pearson</div>
+      <div class="xs text-muted small">@pears</div>
+      <button class="btn rounded-pill buton btn-sm mt-2">Add contact</button>
+    </div>
+
+    <!-- Kutu 2 -->
+    <div class="col-6 border-bottom position-relative text-center">
+      <div class="position-absolute top-0 end-0 p-2">
+        <span class="fw-bold">⋮</span>
+      </div>
+      <img src="img/man-2.jpg" class="rounded-circle sm mb-2" alt="Profil">
+      <div class="xs fw-bold">Curtis Thornton</div>
+      <div class="xs text-muted small">@c-thronton</div>
+      <button class="btn rounded-pill buton btn-sm mt-2">Add contact</button>
+    </div>
+
+    <!-- Kutu 3 -->
+    <div class="col-6 border-end position-relative text-center">
+      <div class=" position-absolute top-0 end-0 p-2">
+        <span class="fw-bold">⋮</span>
+      </div>
+      <img src="img/woman-6.jpg" class="rounded-circle sm mb-2" alt="Profil">
+      <div class="xs fw-bold">Amy Moss</div>
+      <div class="xs text-muted small">@amy-m</div>
+      <button class="btn rounded-pill buton btn-sm mt-2">Add contact</button>
+    </div>
+
+    <!-- Kutu 4 -->
+    <div class="col-6 position-relative text-center">
+      <div class="position-absolute top-0 end-0 p-2">
+        <span class="fw-bold">⋮</span>
+      </div>
+      <img src="img/woman-5.jpg" class="sm rounded-circle mb-2" alt="Profil">
+      <div class="xs fw-bold">Elva Burke</div>
+      <div class="xs text-muted small">@elva-burk</div>
+      <button class="btn rounded-pill buton btn-sm mt-2">Add contact</button>
+    </div>
+  </div>
+</div>
+        </div>
+    </div>
+    <!--2.container-->
+<div class="container-2 border-top">
+    <div class="not-2 btn position-absolute text-center ">
+        <a href="https://www.uidesigndaily.com/posts/figma-cards-schedule-progress-bar-day-1490" class="link custom-link"><h5>LİNK</h5></a>
+    </div>
+<div class="box-6 position-absolute rounded-4 "></div>
+<div class="box-7 position-absolute rounded-4 p-4">
+  <h5 class="fw-bold">Voting Schedule</h5>
+  <div class="d-flex justify-content-between align-items-center gap-3">
+    
+    <div class="now-1 col-auto">
+      <p class="xs fw-bold mb-1">Opening Round</p>
+      <p class="xs mb-0">Nov. 16 - 18</p>
+    </div>
+    
+    <div class="now-2 col-auto">
+      <p class="xs fw-bold mb-1">Final Round</p>
+      <p class="xs mb-0">Nov. 30 - Dec. 5</p>
+    </div>
+    
+    <div class="now-3 col-auto">
+      <p class="xs fw-bold mb-1">Winners Announced</p>
+      <p class="xs mb-0">Dec. 9</p>
+    </div>
+    </div>
+<div class="btn buton-2 ">Vote for the best books</div>
+<div class="a-box">
+    <a href="#" class="link">Rules and Eligibility</a>
+</div>
+</div>
+
+<div class="box-8 position-absolute rounded-4 p-2">
+  <div class="mb-2 text-center mt-2 fw-bold">
+    <span class="xs ">Opening Round</span>
+    <span class="xs text-muted">・Final Round・Winners announced</span>
+  </div>
+  
+  <div class="progress progress-box border mt-3 rounded-pill" >
+    <div class="progress-bar progress-styl bg-dark rounded-pill" role="progressbar" style="width: 30%;"></div>
+  </div>
+
+</div>
+</div>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"></script>
+   <script>
+  const texts = [
+    " Accept payments on your phone with simple payment buttons, or one of our flexible payment solutions, which can be customized to the needs of your business.",
+    "   Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse autem suscipit iste nulla eligendi quasi placeat atque, ratione temporibus eius excepturi repellendus commodi sunt maiores laudantium nemo. Nulla, quasi debitis!",
+    " Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur possimus quam sint fugit voluptate ea eveniet magni aperiam laborum, autem id, expedita neque saepe eum ducimus numquam error sapiente natus.",
+    " Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime quia beatae libero velit voluptatibus, quaerat asperiores, ducimus eveniet voluptatum eius expedita veniam! Corporis consequatur dolorum earum nobis illo, similique maxime.."
+  ];
+
+  let currentIndex = 0;
+
+  const contentEl = document.getElementById('content');
+  const dotsEl = document.getElementById('dots');
+
+  function updateDots(index) {
+    let dots = [];
+    for(let i = 0; i < texts.length; i++) {
+      dots.push(i === index ? '●' : '○');
+    }
+    dotsEl.textContent = dots.join(' ');
+  }
+
+  function changeContent(direction) {
+    currentIndex += direction;
+    if (currentIndex < 0) currentIndex = texts.length - 1;
+    if (currentIndex >= texts.length) currentIndex = 0;
+
+    contentEl.textContent = texts[currentIndex];
+    updateDots(currentIndex);
+  }
+
+  // Sayfa açılır açılmaz ilk metin ve noktalar ayarlanır
+  window.onload = () => {
+    contentEl.textContent = texts[0];
+    updateDots(0);
+  }
+</script>
+<script>
+  window.addEventListener("load", () => {
+    setTimeout(() => {
+      const container = document.getElementById("notificationContainer");
+
+      // Bildirim 1
+      const notif1 = createNotification("js dışında hiç yapayzeka kullanmadım.");
+      container.appendChild(notif1);
+
+      // Bildirim 2
+      const notif2 = createNotification("linklere tıkla onlar seni o sayfanın linkine götürücek.");
+      container.appendChild(notif2);
+    }, 1000); // 1 saniye sonra
+  });
+
+  function createNotification(message) {
+    const div = document.createElement("div");
+    div.className = "notification";
+    div.textContent = message;
+
+    const closeBtn = document.createElement("div");
+    closeBtn.className = "close-btn";
+    closeBtn.textContent = "×";
+    closeBtn.onclick = () => div.remove();
+
+    div.appendChild(closeBtn);
+    return div;
+  }
+</script>
+</body>
+
+</html>
