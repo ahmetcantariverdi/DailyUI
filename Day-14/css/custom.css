@@ -1,0 +1,83 @@
+h3,h4{
+    font-family: 'Libertinus Serif', serif;
+}
+.logo-1{
+    height: 55px;
+    width: 55px;
+}
+.profile-1{
+    height: 55px;
+    width: 55px;
+    margin-right: 10px;
+    margin-right: 10px;
+}
+.buton{
+width: 140px;
+}
+.navbar-nav .nav-link {
+  margin-left: 0.3rem;
+  margin-right: 0.3rem;
+}
+.btn-icon{
+    width: 60px;
+}
+.items{
+    margin: 0 0.3rem;
+}
+.box-1{
+    top: 150px;
+    left: 100px;
+}
+.tall-hr {
+  width: 2px;
+  height: 260px;
+  background-color: black;
+  border: none;
+  margin: 0 1rem; 
+  top: 150px;
+  left: 250px;
+}
+.title-1{
+    top: 200px;
+    left: 400px;
+}
+.min-box{
+ top: 250px;
+    left: 400px;
+}
+.profile-2{
+    height: 150px;
+    width: 150px;
+    border: 8px solid #EFEFFF;
+}
+.min-box-2{
+    top: 270px;
+    left: 600px;
+}
+.xl{
+    height: 55px;
+    
+}
+.box-2{
+    top: 500px;
+    left: 400px;
+}
+.box-3{
+    top:1000px;
+    left: 400px;
+}
+.input-h{
+    width: 400px;
+}
+a.no-underline {
+  text-decoration: none;
+}
+.gif{
+    top: 200px;
+    left: 1100px;
+    width: 100px;
+}
+.gif-1{
+    width: 50px;
+
+}

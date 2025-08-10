@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Day-14</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/custom.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Libertinus+Serif:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap"
+        rel="stylesheet">
+    <link rel='stylesheet'
+        href='https://cdn-uicons.flaticon.com/3.0.0/uicons-regular-straight/css/uicons-regular-straight.css'>
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/3.0.0/uicons-bold-rounded/css/uicons-bold-rounded.css'>
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/3.0.0/uicons-brands/css/uicons-brands.css'>
+    <link rel='stylesheet'
+        href='https://cdn-uicons.flaticon.com/3.0.0/uicons-regular-rounded/css/uicons-regular-rounded.css'>
+    <link rel='stylesheet'
+        href='https://cdn-uicons.flaticon.com/3.0.0/uicons-solid-rounded/css/uicons-solid-rounded.css'>
+</head>
+
+<body>
+
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light px-3 shadow-sm">
+        <div class="container-fluid">
+            <a class="navbar-brand d-flex align-items-center" href="#">
+                <img src="img/UI-logo.jpg" alt="Logo" class="logo-1 rounded-pill me-2">
+                <div class="brand-text">
+                    <span class="brand-title">UI Design Daily</span>
+                </div>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainMenu"
+                aria-controls="mainMenu" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="mainMenu">
+                <ul class="navbar-nav d-flex justify-content-center w-100">
+                    <li class="nav-item">
+                        <a class="nav-link items" href="#">Free designs</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link items" href="#">License</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link items" href="#">Articles</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link items " href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+
+            <a href="#" class="btn btn-icon me-2">
+                <i class="fi fi-br-bell-notification-social-media "></i>
+            </a>
+            <img src="img/profile.jpg" alt="profile" class="profile-1 rounded-pill me-2">
+            <button class="btn btn-dark buton">
+                <i class="fi fi-rs-upload "></i> Upload
+            </button>
+        </div>
+    </nav>
+
+
+    <a href="https://www.uidesigndaily.com/posts/figma-profile-settings-form-day-1387"
+        class="btn gif-btn rounded-4 shadow-lg">
+        <img src="img/click.gif" class="gif-1 rounded" alt="gif">
+        <span class="small"> Click</span>
+    </a>
+
+
+    <div class="page-content">
+        <div class="box-1 position-absolute">
+            <h3 class="fw-bold text-center">Settings</h3>
+            <div class="d-flex flex-column gap-4">
+                <button class="btn btn-light rounded-pill">Public profile</button>
+                <button class="btn rounded-pill">Account settings</button>
+                <button class="btn rounded-pill">Notifications</button>
+                <button class="btn rounded-pill">PRO Account</button>
+            </div>
+        </div>
+
+        <hr class="tall-hr position-absolute">
+
+        <h4 class="fw-bold position-absolute title-1">Public profile</h4>
+
+        <div class="min-box position-absolute">
+            <img src="img/profile.jpg" class="rounded-pill profile-2 shadow " alt="profile">
+        </div>
+
+        <div class="min-box-2 position-absolute  d-flex flex-column gap-3 ">
+            <button class="btn btn-dark rounded-3 ">Change picture</button>
+            <button class="btn btn-outline-dark rounded-3 ">Delete picture</button>
+        </div>
+
+        <div class="box-2 position-absolute">
+            <div class="d-flex gap-3">
+                <div class="flex-fill">
+                    <label for="name" class="form-label">First name</label>
+                    <input type="text" class="form-control xl" id="name" name="name" placeholder="Ildiko">
+                </div>
+                <div class="flex-fill">
+                    <label for="surname" class="form-label">Last name</label>
+                    <input type="text" class="form-control xl" id="surname" name="surname" placeholder="Gaspar">
+                </div>
+            </div>
+            <div class="mt-4">
+                <label for="email" class="form-label">Location</label>
+                <input type="email" class="form-control xl" id="email" placeholder="emailis@private.com">
+            </div>
+            <div class="mt-4">
+                <label for="Profession" class="form-label">Profession</label>
+                <select name="Profession" id="Profession" class="form-select">
+                    <option selected disabled>UI/UX Designer</option>
+                    <option value="developer">Developer</option>
+                    <option value="designer">Designer</option>
+                    <option value="manager">Manager</option>
+                    <option value="teacher">Teacher</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+            <div class="mt-4">
+                <label for="bio" class="form-label">BİO</label>
+                <textarea class="form-control" name="bio" id="bio" rows="4"
+                    placeholder="Open-Source designer @ UI Design Daily"></textarea>
+            </div>
+        </div>
+
+        <div class="box-3 position-absolute">
+            <h4 class="fw-bold">Online presence</h4>
+
+            <div class="mt-3 input-group input-h">
+                <span class="input-group-text">
+                    <i class="fi fi-rr-basketball"></i>
+                </span>
+                <input type="text" class="form-control xl input-h" value=" https://dribbble.com/uidesigndaily" readonly>
+            </div>
+
+            <div class="mt-3 input-group input-h ">
+                <span class="input-group-text">
+                    <i class="fi fi-brands-instagram"></i>
+                </span>
+                <input type="text" class="form-control xl input-h" value="https://instagram.com/uidesigndaily">
+            </div>
+
+            <div class="mt-3">
+                <a href="#" class="no-underline">
+                    <i class="fi fi-sr-plus"></i> Add other
+                </a>
+            </div>
+            <div class="mt-5"></div>
+        </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
