@@ -1,0 +1,28 @@
+.container{
+    background: #3b3b3b;
+    width: 65%;
+    height: 1000px;
+}
+.box{
+    width: 96%;
+    top: 30% ;
+}
+.img{
+    object-fit: cover;
+     filter: blur(8px);
+      transform: scale(1.05);
+}
+.transparent{
+    background: rgba(56, 56, 56, 0.65);
+}
+.box-2 {
+    height: 350px;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.55), 
+              0 5px 15px rgba(0, 0, 0, 0.55);  
+}
+
+.box-2:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.65), 
+              0 8px 20px rgba(0, 0, 0, 0.65);
+}
