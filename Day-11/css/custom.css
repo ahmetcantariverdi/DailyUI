@@ -1,116 +1,194 @@
-h3{
+
+h5{
     font-family:'libartinus serif',serif  ;
 }
-.container{
-    background: #cacaca;
-    width: 90%;
-    height: 900px;
+.container-1{
+    background:#EE4B56 ;
+    width: 100%;
+    height: 950px;
 }
 .box-1{
     background: #FFFFFF;
-    width: 500px;
-    height: 540px;
-    top: 150px;
-    left: 450px;
+   border-radius: 40%;
+   height: 600px;
+   width: 700px;
+   top: -100px;
+   left: -200px;
 }
-.box-2{
-    background: #F8F8F8;
-     width: 500px;
-    height: 550px;
-    top: 170px;
-    left: 480px;
+ .box-2 {
+  background: linear-gradient(135deg, #E54368, #F34F4F);
+  width: 300px;
+  height: 130px;
+  left: 350px;
+  top: 320px;
+  color: white;
 }
-.title{
-    width: 50%;
+.profile-img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
 }
-.star{
-background: #FFFFFF;
-   
-}
-.rating-box {
-  width: 100px;
+.box-3 {
+  width: 400px;
   height: 100px;
+  left: 500px;
+  top: 170px;
+
 }
-.s{
- font-size: 12px
+
+.btn-tab {
+  background: transparent;
+  border: none;
+  width: 50px;
+  padding: 0;
+  color: #555;
 }
-.star-yellow {
-  color: gold;
+
+.icon-circle {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #777;
 }
-.star-big {
-  font-size: 2em;
+
+.active-icon {
+  background: linear-gradient(135deg, #E54368, #F34F4F);
+  color: white;
 }
-.title-1{
-    color: #191B4A;
+
+.text-label {
+  font-size: 11px;
+  margin-top: 4px;
 }
-.list-1{
-    background: #FFD66C;
-    height:6px ;
- width: 70%;
+.xl{
+    font-size: x-large;
 }
-.list-2{
-    height:6px ;
- width: 30%; 
+.box-4{
+   width: 400px;
+  height: 200px;
+  left: 400px;
+  top: 500px; 
 }
-.list-3{
-    background: #FFD66C;
-    height:6px ;
- width: 30%;
+.box-5{
+    width: 300px;
+    height: 400px;
+    top: 300px;
+    left: 900px;
 }
-.list-4{
-    height:6px ;
- width: 70%; 
+.sm{
+    height: 60px;
+    width: 60px;
 }
-.list-5{
-    background: #FFD66C;
-    height:6px ;
- width: 0%;
+.xs{
+    font-size: small;
 }
-.list-6{
-    height:6px ;
- width: 100%; 
+.buton{
+     background: linear-gradient(135deg, #E54368, #F34F4F);
+     color: white;
 }
-.list-7{
-    background: #FFD66C;
-    height:6px ;
- width: 0%;
+.container-2{
+    background: #6A7062;
+    height: 1000px;
+    width: 100%;
 }
-.list-8{
-    height:6px ;
- width: 100%; 
+.box-6{
+    background: #FFD767;
+    width: 370px;
+    height: 250px;
+    bottom:-900px ;
+    left: 250px;
 }
-.list-9{
-    background: #FFD66C;
-    height:6px ;
- width: 0%;
+.box-7{
+    background: #FFFFFF;
+    width: 400px;
+    height: 250px;
+    bottom: -920px ;
+    left: 270px;
 }
-.list-10{
-    height:6px ;
- width: 100%; 
-}
-.left{
-    margin-left: 3px;
-}
-.top{
-    margin-top: 7px;
-}
-.mangnifying{
-    bottom: 292px;
-}
-.buton-1{
-    background: #191B4A;
+.buton-2{
+    background: #32362D;
     color: white;
-    width: 120px;
+    margin-top: 30px;
 }
-.not{
-    background: #e2ddf7;
-    width: 250px;
+.link{
+     text-decoration: none;
+}
+.a-box{
+   margin-top: 30px;
+}
+.box-8{
+    background: #FFD767;
+    width: 400px;
     height: 100px;
-    border: 8px solid #757575 !important;
-    top: 0%;
-    left: 0%;
+   bottom: -1070px ;
+    left: 500px;  
 }
-.title-1{
-    top: 25px;
-    left: 35px;
+.progress-box{
+    height: 14px;
 }
+.progress-styl{
+    width: 30%;
+}
+.not-1{
+   background: linear-gradient(135deg, #5c547e, #604dca);
+   border: 3px solid rgb(134, 10, 30);
+    width: 200px;
+    left: 100px;
+    top: 100px;
+    left: 1000px;
+}
+.not-2{
+    background: #FFD767;
+   border: 3px solid black;
+    width: 200px;
+    left: 100px;
+    top: 1050px;
+}
+.custom-link {
+  color: black; 
+}
+.notification-container {
+      position: fixed;
+      top: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      z-index: 9999;
+      display: flex;
+      flex-direction: column;
+      gap: -10px; /* Üst üste binmiş gibi görünmesi için */
+      pointer-events: none;
+    }
+
+    .notification {
+      background: linear-gradient(135deg, #5c547e, #604dca);
+      color: white;
+      padding: 16px 40px 16px 16px;
+      margin-bottom: -10px;
+      border-radius: 6px;
+      font-weight: bold;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+      position: relative;
+      pointer-events: auto;
+    }
+
+    .close-btn {
+      position: absolute;
+      top: 8px;
+      right: 8px;
+      background: white;
+      color: black;
+      border: 2px solid black;
+      border-radius: 50%;
+      width: 24px;
+      height: 24px;
+      font-size: 16px;
+      line-height: 20px;
+      text-align: center;
+      cursor: pointer;
+      font-weight: bold;
+    }

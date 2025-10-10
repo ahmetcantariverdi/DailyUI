@@ -1,72 +1,206 @@
-
-.container{
-  width: 100%;
-}
-.wallpaper{
-  width:100% ;
-}
-.box-1{
-   background-color: rgba(0, 0, 0, 0.8);
-   color: white; 
-   width: 330px;
-    height:450px;
-    top: 100px;
-    left: 150px;
-}
-.google-btn{
-  background: #4285F4;
-  color: white;
-  width: 100%;
-  height: 50px;
-}
-.google-logo{
-  width: 40px;
-  height: 40px;
-}
-.color-w{
-  color: white;
-}
-.mt{
-  margin-top: 50px;
-}
-.mail-box label {
-  text-align: left;
-  display: block;
-  margin-bottom: 0.5rem;
+:root {
+    --nav-height: 64px;
 }
 
-.mail-box input.form-control {
-  background-color: transparent; 
-  height: 50px;                            
+html,
+body {
+    height: 100%;
 }
-.buton{
-  background: white;
-  height: 50px;
-  width: 100%;
-}
-.xs{
-  font-size: 12px;
-}
-.box-2{
-  width: 300px;
-  color: white;
-  top: 400px;
-  left: 900px;
-}
-.box-3{
-  width: 240px;
-  color: white;
-  top: 490px;
-  left: 900px;
-}
-.box-4{
-background-color: rgba(0, 0, 0, 0.4);
-width: 200px; 
-top: 70px;
-left: 900px;
 
+body {
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+    padding-top: 80px;
+    background: #fff;
 }
-.link{
-   text-decoration: none;
-   color: white;
+h3,
+h4 {
+    font-family: 'Libertinus Serif', serif;
+}
+
+
+.logo-1 {
+    height: 55px;
+    width: 55px;
+}
+
+.profile-1 {
+    height: 55px;
+    width: 55px;
+    margin-right: 10px;
+}
+
+.buton {
+    width: 140px;
+}
+
+.navbar-nav .nav-link {
+    margin-left: 0.3rem;
+    margin-right: 0.3rem;
+}
+
+.btn-icon {
+    width: 60px;
+}
+
+.items {
+    margin: 0 0.3rem;
+}
+
+.box-1 {
+    top: 150px;
+    left: 100px;
+}
+
+.tall-hr {
+    width: 2px;
+    height: 260px;
+    background-color: black;
+    border: none;
+    margin: 0 1rem;
+    top: 150px;
+    left: 250px;
+}
+
+.title-1 {
+    top: 200px;
+    left: 400px;
+}
+
+.min-box {
+    top: 250px;
+    left: 400px;
+}
+
+.profile-2 {
+    height: 150px;
+    width: 150px;
+    border: 8px solid #EFEFFF;
+}
+
+.min-box-2 {
+    top: 270px;
+    left: 600px;
+}
+
+.xl {
+    height: 55px;
+}
+
+.box-2 {
+    top: 500px;
+    left: 400px;
+}
+
+.box-3 {
+    top: 1000px;
+    left: 400px;
+}
+
+.input-h {
+    width: 400px;
+}
+
+a.no-underline {
+    text-decoration: none;
+}
+
+.gif-1 {
+    width: 50px;
+}
+.gif-btn {
+    top: 110px;
+    right: 20px;
+    position: fixed;
+    background: linear-gradient(45deg, #ff6b6b, #feca57, #1dd1a1, #54a0ff);
+    background-size: 300% 300%;
+    animation: gradientMove 6s ease infinite;
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    z-index: 2000;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.18);
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+}
+@keyframes gradientMove {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+
+.navbar-toggler {
+    border: none;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
+
+
+
+@media (max-width: 992px) {
+    .tall-hr {
+        display: none;
+    }
+
+    .profile-2 {
+        height: 120px;
+        width: 120px;
+    }
+
+    .xl {
+        height: auto;
+        min-height: 45px;
+    }
+
+
+    .gif-btn {
+        top: 160px;
+        right: 14px;
+        padding: 9px 12px;
+    }
+}
+
+
+@media (max-width: 576px) {
+    .buton {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .btn-icon {
+        width: auto;
+    }
+
+    .profile-1 {
+        height: 40px;
+        width: 40px;
+    }
+
+    .logo-1 {
+        height: 40px;
+        width: 40px;
+    }
+
+    .gif-btn {
+        top: 220px;
+        right: 12px;
+        padding: 8px 10px;
+    }
+
+
+    .input-h {
+        width: 100%;
+    }
 }

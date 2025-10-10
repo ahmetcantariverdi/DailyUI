@@ -1,194 +1,72 @@
 
-h5{
-    font-family:'libartinus serif',serif  ;
+.container{
+  width: 100%;
 }
-.container-1{
-    background:#EE4B56 ;
-    width: 100%;
-    height: 950px;
+.wallpaper{
+  width:100% ;
 }
 .box-1{
-    background: #FFFFFF;
-   border-radius: 40%;
-   height: 600px;
-   width: 700px;
-   top: -100px;
-   left: -200px;
+   background-color: rgba(0, 0, 0, 0.8);
+   color: white; 
+   width: 330px;
+    height:450px;
+    top: 100px;
+    left: 150px;
 }
- .box-2 {
-  background: linear-gradient(135deg, #E54368, #F34F4F);
-  width: 300px;
-  height: 130px;
-  left: 350px;
-  top: 320px;
+.google-btn{
+  background: #4285F4;
   color: white;
+  width: 100%;
+  height: 50px;
 }
-.profile-img {
-  width: 60px;
-  height: 60px;
-  border-radius: 50%;
-  object-fit: cover;
-}
-.box-3 {
-  width: 400px;
-  height: 100px;
-  left: 500px;
-  top: 170px;
-
-}
-
-.btn-tab {
-  background: transparent;
-  border: none;
-  width: 50px;
-  padding: 0;
-  color: #555;
-}
-
-.icon-circle {
+.google-logo{
   width: 40px;
   height: 40px;
-  border-radius: 50%;
-  background-color: transparent;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: #777;
 }
-
-.active-icon {
-  background: linear-gradient(135deg, #E54368, #F34F4F);
+.color-w{
   color: white;
 }
+.mt{
+  margin-top: 50px;
+}
+.mail-box label {
+  text-align: left;
+  display: block;
+  margin-bottom: 0.5rem;
+}
 
-.text-label {
-  font-size: 11px;
-  margin-top: 4px;
-}
-.xl{
-    font-size: x-large;
-}
-.box-4{
-   width: 400px;
-  height: 200px;
-  left: 400px;
-  top: 500px; 
-}
-.box-5{
-    width: 300px;
-    height: 400px;
-    top: 300px;
-    left: 900px;
-}
-.sm{
-    height: 60px;
-    width: 60px;
-}
-.xs{
-    font-size: small;
+.mail-box input.form-control {
+  background-color: transparent; 
+  height: 50px;                            
 }
 .buton{
-     background: linear-gradient(135deg, #E54368, #F34F4F);
-     color: white;
+  background: white;
+  height: 50px;
+  width: 100%;
 }
-.container-2{
-    background: #6A7062;
-    height: 1000px;
-    width: 100%;
+.xs{
+  font-size: 12px;
 }
-.box-6{
-    background: #FFD767;
-    width: 370px;
-    height: 250px;
-    bottom:-900px ;
-    left: 250px;
+.box-2{
+  width: 300px;
+  color: white;
+  top: 400px;
+  left: 900px;
 }
-.box-7{
-    background: #FFFFFF;
-    width: 400px;
-    height: 250px;
-    bottom: -920px ;
-    left: 270px;
+.box-3{
+  width: 240px;
+  color: white;
+  top: 490px;
+  left: 900px;
 }
-.buton-2{
-    background: #32362D;
-    color: white;
-    margin-top: 30px;
+.box-4{
+background-color: rgba(0, 0, 0, 0.4);
+width: 200px; 
+top: 70px;
+left: 900px;
+
 }
 .link{
-     text-decoration: none;
+   text-decoration: none;
+   color: white;
 }
-.a-box{
-   margin-top: 30px;
-}
-.box-8{
-    background: #FFD767;
-    width: 400px;
-    height: 100px;
-   bottom: -1070px ;
-    left: 500px;  
-}
-.progress-box{
-    height: 14px;
-}
-.progress-styl{
-    width: 30%;
-}
-.not-1{
-   background: linear-gradient(135deg, #5c547e, #604dca);
-   border: 3px solid rgb(134, 10, 30);
-    width: 200px;
-    left: 100px;
-    top: 100px;
-    left: 1000px;
-}
-.not-2{
-    background: #FFD767;
-   border: 3px solid black;
-    width: 200px;
-    left: 100px;
-    top: 1050px;
-}
-.custom-link {
-  color: black; 
-}
-.notification-container {
-      position: fixed;
-      top: 0;
-      left: 50%;
-      transform: translateX(-50%);
-      z-index: 9999;
-      display: flex;
-      flex-direction: column;
-      gap: -10px; /* Üst üste binmiş gibi görünmesi için */
-      pointer-events: none;
-    }
-
-    .notification {
-      background: linear-gradient(135deg, #5c547e, #604dca);
-      color: white;
-      padding: 16px 40px 16px 16px;
-      margin-bottom: -10px;
-      border-radius: 6px;
-      font-weight: bold;
-      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
-      position: relative;
-      pointer-events: auto;
-    }
-
-    .close-btn {
-      position: absolute;
-      top: 8px;
-      right: 8px;
-      background: white;
-      color: black;
-      border: 2px solid black;
-      border-radius: 50%;
-      width: 24px;
-      height: 24px;
-      font-size: 16px;
-      line-height: 20px;
-      text-align: center;
-      cursor: pointer;
-      font-weight: bold;
-    }
