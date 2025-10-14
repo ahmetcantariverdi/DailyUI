@@ -1,20 +1,28 @@
-body{
-    background: black;
-    padding: 0;
-    margin: 0;
+/* GENEL */
+body {
+  margin: 0;
+  padding: 0;
+  background: black;
+  overflow-x: hidden;
+  font-family: "Anek Telugu", sans-serif;
 }
+
+/* ÜST KONTEYNER */
 .container-1 {
   position: relative;
   height: 100vh;
+  width: 100%;
 }
 
-.container-1 img {
+.background-img {
   width: 100%;
   height: 100%;
   object-fit: cover;
   display: block;
+  z-index: 0;
 }
 
+/* Karartma */
 .box-transparent {
   position: absolute;
   top: 0;
@@ -22,44 +30,134 @@ body{
   width: 100%;
   height: 100%;
   background: rgba(0, 0, 0, 0.7);
-  z-index: 0;
+  z-index: 1;
 }
 
+/* Netflix Logo */
+.netflix-logo {
+  position: absolute;
+  top: 20px;
+  left: 8%;
+  width: 160px;
+  height: auto;
+  z-index: 3;
+}
+
+/* Metin Alanı */
+.hero-text {
+  position: absolute;
+  top: 48%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  text-align: center;
+  z-index: 3;
+  width: 80%;
+  max-width: 800px;
+}
+
+/* Başlık */
+.title-2 {
+  font-family: "Fjalla One", sans-serif;
+  font-size: 2.8rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+  text-shadow: 0 0 15px rgba(255, 255, 255, 0.3),
+               0 0 25px rgba(255, 0, 0, 0.4);
+  animation: fadeIn 2s ease-in-out;
+}
+
+/* Alt yazı */
+.sub-text {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  margin-bottom: 25px;
+}
+
+/* E-posta kutusu + buton */
+.email-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.email-input {
+  width: 300px;
+  max-width: 80%;
+  padding: 12px 15px;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  outline: none;
+}
+
+.start-btn {
+  padding: 12px 25px;
+  background-color: red;
+  color: white;
+  font-weight: 600;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.start-btn:hover {
+  background-color: #e50914;
+}
+
+/* Dil butonu */
+.lang-btn {
+  position: absolute;
+  top: 30px;
+  right: 8%;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 6px;
+  font-weight: 500;
+  color: white;
+  background-color: red;
+  cursor: pointer;
+  z-index: 3;
+  transition: background-color 0.4s;
+}
+.lang-btn.en {
+  background-color: blue;
+}
+
+/* Alt kavisli konteyner */
 .container-2 {
   position: relative;
-  height: 50vh;                
-  background-color: black;     
-  margin-top: -100px;          
-  border-top: 5px solid rgba(233, 3, 3, 0.751);    
-  border-top-left-radius: 50% 10%;   
+  height: 50vh;
+  background-color: black;
+  margin-top: -100px;
+  border-top: 5px solid rgba(233, 3, 3, 0.751);
+  border-top-left-radius: 50% 10%;
   border-top-right-radius: 50% 10%;
-    overflow: visible; 
-  z-index: 2;                   
+  overflow: visible;
+  z-index: 2;
 }
+
 .container-2::after {
-    content: "";
-    position: absolute;
-    top: -3px;                 
-    left: 50%;                
-    transform: translateX(-50%) rotate(180deg);
-    width: 70%;
-    height: 80px;                
-    background: radial-gradient(
-        ellipse at center, 
-        rgba(30, 1, 123, 0.5) 0%,  
-        rgba(18, 6, 106, 0.5) 30%,  
-        rgba(4, 22, 138, 0.1) 70%         
-    );
-    border-top-left-radius: 50%;
-    border-top-right-radius: 50%;
-    z-index: 3;
+  content: "";
+  position: absolute;
+  top: -3px;
+  left: 50%;
+  transform: translateX(-50%) rotate(180deg);
+  width: 70%;
+  height: 80px;
+  background: radial-gradient(
+      ellipse at center,
+      rgba(30, 1, 123, 0.5) 0%,
+      rgba(18, 6, 106, 0.5) 30%,
+      rgba(4, 22, 138, 0.1) 70%
+  );
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  z-index: 3;
 }
-.netflix-logo {
-    top: 4%;        
-    left: 10%;       
-    width: 100px !important;   
-    height: 100px !important;   
-    z-index: 2;
-}
+
 
 

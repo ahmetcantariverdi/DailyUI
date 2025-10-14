@@ -1,30 +1,48 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="tr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Netflix</title>
-    <link rel="stylesheet" href="css/custom.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Netflix - Giriş</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Anek+Telugu:wght@300;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/custom.css" />
 </head>
 <body>
-<div class="container-1 h-100 position-relative">
-    <!--Netflix-background-->
-    <img src="img/Netfilix-background.jpg" class="w-100 vh-100 object-fit-cover" alt="netfilix-jpg">
+ 
+
+  <div class="container-1 position-relative">
+<img src="" alt="">
+    <!-- Background -->
+    <img src="img/Netfilix-background.jpg" 
+         alt="Netflix Background" 
+         class="background-img">
     <div class="box-transparent"></div>
+    <!-- Logo -->
+    <img src="img/Netflix-title.png" alt="Netflix Logo" class="netflix-logo position-absolute">
+    <!-- Main Content -->
+    <div class="hero-text text-center">
+      <h1 class="title-2">Sınırsız film, dizi ve çok daha fazlası</h1>
+      <p class="sub-text">
+        189,99 TL ile başlayan fiyatlarla. İstediğiniz zaman iptal edebilirsiniz.<br><br>
+        İzlemeye hazır mısınız? Üye olmak ya da hesabınıza tekrar ulaşmak için tek yapmanız gereken e-posta adresinizi girmek.
+      </p>
 
-    <!-- Netflix-png -->
-    <img src="img/Netflix-title.png" class="netflix-logo  position-absolute " alt="Netflix-png">
-</div>
+      <div class="email-form">
+        <input type="email" id="emailInput" class="email-input" placeholder="E-posta adresi" />
+        <button id="startBtn" class="start-btn">Başlayın &gt;</button>
+      </div>
+    </div>
+    <!-- tranlate Button -->
+    <button id="langToggle" class="lang-btn tr">Türkçe</button>
+  </div>
+  <!-- container 2 -->
+  <div class="container-2"></div>
 
-<div class="container-2 z-0">
 
-</div>
-
-
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Custom JS -->
+  <script src="js/index.js"></script>
 </body>
 </html>
