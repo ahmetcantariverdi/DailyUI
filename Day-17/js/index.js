@@ -81,6 +81,6 @@
 
       // Redirect after short delay
       setTimeout(() => {
-        window.location.href = "Netflix.html";
+        window.location.href = "Netflix - Anasayfa.html";
       }, 2000);
     });
