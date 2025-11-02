@@ -20,3 +20,22 @@ prevBtn.addEventListener("click", () => {
     slider.style.transform = `translateX(-${currentIndex * cardWidth}px)`; 
   }
 });
+
+//! massage:not
+
+document.addEventListener('DOMContentLoaded', (event) => {
+    const massageBox = document.getElementById('message-container');
+    const closeButton = document.getElementById('close-message');
+    
+    if (massageBox) {
+        setTimeout(() => {
+            massageBox.style.display = 'block';
+        }, 2000);
+    }
+
+    if (closeButton && massageBox) {
+        closeButton.addEventListener('click', () => {
+            massageBox.style.display = 'none';
+        });
+    }
+});
