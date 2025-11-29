@@ -1,0 +1,58 @@
+body {
+  background: #1A2036;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  background: #2E3650;
+  width: 60%;
+  padding: 20px;
+  margin: 100px auto;
+  display: flex;
+  border-radius: 20px;
+}
+
+.scrol {
+  background: #1A2036;
+  width: 20%;
+}
+
+.content-area {
+  position: relative;
+  flex-grow: 1;
+  padding: 20px;
+}
+
+.boxs {
+  background: #1A2036;
+  padding: 20px;
+ 
+}
+
+.box-1 .img {
+  width: 40px;
+}
+
+.img{
+  width: 70px;
+}
+
+.groups {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start; 
+}
+
+.group-card {
+  background: #3A4160;
+  width: 150px;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.clicked-btn {
+  background-color: #2E3650 !important;
+  border-color: #2E3650 !important;
+}
