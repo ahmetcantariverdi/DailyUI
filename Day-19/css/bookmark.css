@@ -15,7 +15,7 @@ body {
 
 .scrol {
   background: #1A2036;
-  width: 10%;
+  width: 5%;
 }
 
 .content-area {
@@ -32,47 +32,24 @@ body {
 }
 
 .group-card {
-  position: relative;
+  position: relative; 
   background: #3A4160;
   width: 150px;
   color: white;
   padding: 10px;
   border-radius: 10px;
-  overflow: hidden;
+  overflow: hidden; 
 }
-
-
-.corner-bookmarks::before,
-.corner-bookmarks::after {
-  content: "";
-  position: absolute;
-  width: 14px;
-  height: 14px;
-  background-image: url('img/bookmark.svg');
-  background-repeat: no-repeat;
-  background-size: contain;
-  opacity: 0.9;
-  filter: drop-shadow(0 1px 2px rgba(0,0,0,0.4));
-}
-
 
 .corner-bookmarks::before {
   top: 6px;
   left: 6px;
 }
 
-
 .corner-bookmarks::after {
   bottom: 6px;
   right: 6px;
 }
-
-
-.corner-bookmarks .corner-top-right,
-.corner-bookmarks .corner-bottom-left {
-  content: "";
-}
-
 
 .clicked-btn {
   background-color: #2E3650 !important;
@@ -96,7 +73,6 @@ body {
 .click-title{
   margin-top: 10px;
 }
-
 
 .img{
   width: 70px;
