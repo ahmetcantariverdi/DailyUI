@@ -1,0 +1,139 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container {
+  background: #ffffff;
+  width: 80%;
+  margin-top: 6%;
+}
+.group-box{
+    width: 200px;
+    height: 120px;
+   margin: 10% auto;
+    background: #f8f9fa;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    border: none;
+}
+
+.active-border {
+    border: 3px solid gold;
+    box-shadow: 0 0 10px rgba(255, 215, 0, 0.7);
+}
+.user-tabs {
+  display: flex;
+  border-bottom: 2px solid #ddd; /* Ortak çizgi */
+}
+
+.user-tabs .tab {
+  background: none;
+  border: none;
+  font-weight: bold;
+  padding: 15px 20px;
+  color: #333;
+  cursor: pointer;
+}
+/* ! */
+.user-tabs .tab.active {
+  background: #849FFF;
+  color: #ffffff;
+}
+.tab:hover{
+     transform: translateY(-4px);
+    background: #849FFF;
+    color: #ffffff;
+}
+.user-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+
+.user-card {
+  background: #f8f9fa;
+  border-radius: 12px;
+  padding: 20px;
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.user-image {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  background: #ccc;
+}
+
+.user-info {
+  flex: 1;
+}
+
+.user-name {
+  margin: 0;
+  font-weight: bold;
+}
+
+.user-location {
+  margin: 0;
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.user-tags {
+  margin-top: 8px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+.user-tags {
+  display: grid;
+  grid-template-columns: repeat(2, auto); /* Her satırda 2 kutu */
+  gap: 6px;
+  margin-top: 8px;
+}
+
+.tag {
+  background: #e0e0e0;
+  padding: 2px 10px;
+  font-size: 0.75rem;
+  border-radius: 20px;
+  white-space: nowrap;
+  font-weight: 500;
+  color: #333;
+}
+
+.user-card {
+  background: #f8f9fa;
+  border-radius: 12px;
+  padding: 20px;
+  height: 16cap;
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  cursor: pointer;
+}
+
+.user-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.user-card.active {
+  border: 2px solid gold;
+  box-shadow: 0 0 12px rgba(255, 215, 0, 0.6);
+}
+
+@media (max-width: 768px) {
+  .user-grid {
+    grid-template-columns: 1fr;
+  }
+}
