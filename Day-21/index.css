@@ -1,0 +1,25 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: #ef0b5f;
+}
+.box-1{
+  position: absolute; z-index: 0;
+    background: #BC0748;
+    height: 750px;
+    width: 20px;
+    margin: 0 auto;
+    padding: 100px ;
+    z-index: -1 !important;
+}
+.container{
+    position: relative; z-index: 1;
+    background: #FFC148;
+    margin: 0 auto;
+    width: 350px;
+    height: 500px;
+     /* border: 20px solid #FFCE6D; */
+    border-radius: 20px;
+}
