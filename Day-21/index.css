@@ -5,11 +5,16 @@
 body{
     background: #ef0b5f;
 }
+h5{
+  font-family: "Inria Serif", serif;
+  font-weight: 700;
+  font-style: normal;
+}
 .box-1{
   position: absolute; z-index: 0;
     background: #BC0748;
     height: 750px;
-    width: 20px;
+    width: 15px;
     margin: 0 auto;
     padding: 100px ;
     z-index: -1 !important;
@@ -18,8 +23,42 @@ body{
     position: relative; z-index: 1;
     background: #FFC148;
     margin: 0 auto;
+    padding: 40px;
     width: 350px;
-    height: 500px;
-     /* border: 20px solid #FFCE6D; */
+    height: 550px;
+     border: 20px solid #FFCE6D;
     border-radius: 20px;
+}
+.input-box{
+    background: #ffce6ddd;
+    border: 1px solid #EC9F09;
+    margin-top: 30px;
+}
+.min-box{
+    background:none;
+    border: none;
+    margin-top: 20px;
+}
+.img-foto{
+    width: 46px;
+}
+.min-box.active {
+  background-color: #FF9548; 
+  padding: 6px;
+}
+
+h6{
+    margin-top: 10px;
+}
+.search-icon {
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #000000;
+}
+
+.input-box {
+  padding-left: 35px; 
+ 
 }
